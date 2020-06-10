@@ -18,6 +18,7 @@ public:
             return false;
         }
 
+
         int i=0; //i is pointing to string s
         int j=0; //j is pointing to string t
         
@@ -37,6 +38,7 @@ public:
                 j++; //only increment j to the next index of t
             }
         }
+
         return true;
     }
 };
